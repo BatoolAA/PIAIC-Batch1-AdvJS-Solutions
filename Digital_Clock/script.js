@@ -1,4 +1,4 @@
-function startTime() {
+const startTime = () => {
     var date = new Date();
     var h = date.getHours();
     var m = date.getMinutes();
