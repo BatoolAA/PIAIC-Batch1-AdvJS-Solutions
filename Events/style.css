@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif&display=swap');
+
+body{
+    background-color: #9266ff;  
+    font-family: 'PT Serif', serif;
+}
+
+h1{
+    color: #E4DBDB ;
+}
+
+div{
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    background-color: #3f3160  ;
+    width: 600px;
+    text-align: center;
+    color: rgb(235, 220, 220);
+    margin: 40px auto;
+    border-radius: 5px;
+
+}
+
+#btn1{
+    padding: 1px 0px;
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(202, 156, 24);
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: medium;
+    color: #fff;
+}
+
+#btn2{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+    background-color: red;
+    position: absolute;
+    right: 150px;
+    font-size: 15px;
+}
+
+input{
+    background-color: rgb(27, 112, 137);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input:focus, #btn1:focus, #btn2:focus{
+    outline: none;
+}
+
+li{
+    width: 350px;
+    height: 50px;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+} 
+ul{
+    list-style-type: none;
+}
+
+a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 0;
+    position: relative;
+    right: 150px;
+}
+
+
