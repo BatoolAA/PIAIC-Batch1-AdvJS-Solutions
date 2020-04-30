@@ -1,18 +1,18 @@
-let div = document.createElement("div");
+let div = document.createElement("DIV");
 
-let h1 = document.createElement("h1");
+let h1 = document.createElement("H1");
 let txt = document.createTextNode("Todo List");
 
 h1.appendChild(txt);
 div.appendChild(h1);
 
-let input = document.createElement("input");
+let input = document.createElement("INPUT");
 input.setAttribute("type", "text");
 input.setAttribute("placeholder", "Add Todo..");
 
 div.appendChild(input);
 
-let btn1 = document.createElement("button");
+let btn1 = document.createElement("BUTTON");
 let btn_txt1 = document.createTextNode("Add Todo");
 btn1.setAttribute("id", "btn1");
 
@@ -20,15 +20,15 @@ btn1.appendChild(btn_txt1);
 div.appendChild(btn1);
 
 let list = ["read a book", "go to market", "do the dishes"];
-let ul = document.createElement("ul");
+let ul = document.createElement("UL");
 
 for( let i=0; i<list.length; i++){
     
-    let li = document.createElement("li");
-    let a = document.createElement("a");
+    let li = document.createElement("LI");
+    let a = document.createElement("A");
     let txt =document.createTextNode(list[i]);
 
-    let btn2 = document.createElement("button");
+    let btn2 = document.createElement("BUTTON");
     let btn_txt2 = document.createTextNode("x");
     btn2.setAttribute("id", "btn2");
 

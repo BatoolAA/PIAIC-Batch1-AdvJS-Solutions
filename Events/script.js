@@ -5,14 +5,14 @@ let index = 0;
 
 const displayTodo = (input) => {
 
-        let li = document.createElement("li");
-        let a = document.createElement("a");
+        let li = document.createElement("LI");
+        let a = document.createElement("A");
 
         a.setAttribute("href", "#");
         li.setAttribute("id", input);
 
         let txt = document.createTextNode(input);
-        let btn2 = document.createElement("button");
+        let btn2 = document.createElement("BUTTON");
         let btn2_txt = document.createTextNode("X");
         btn2.setAttribute("id", "btn2");
 
