@@ -1,6 +1,6 @@
 ## Object (Multi Stage Form)
 
-![](obj1.png)
-![](obj2.png)
-![](obj3.png)
-![](obj4.png)
+![](1.png)
+![](2.png)
+![](3.png)
+![](4.png)
