@@ -1,3 +1,41 @@
-#div{
+#main{
     background-color: rgb(235, 235, 235);
+}
+
+p{
+    text-align: justify;
+}
+
+#req, #sp{
+    color: red;
+}
+
+input, #select{
+    display: block;
+    border: solid 1px #aacfe4;
+    width: 50%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=button]{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 16px 32px;
+    text-decoration: none;
+    width: 20%;
+    cursor: pointer;
+}
+
+#select{
+    background-color: rgb(41, 200, 206);
+}
+
+#back1, #back2{
+    background-color: maroon;
+}
+
+#div2, #div3, #div4{
+    display: none;
 }
